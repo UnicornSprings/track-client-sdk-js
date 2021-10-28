@@ -22,7 +22,7 @@
   "homepage": "https://unicornsprings.com",
   "repository": {
     "type": "git",
-    "url": "ssh://git@git.cryptium.net/unicorn_springs/track-client-sdk-js"
+    "url": "https://github.com/UnicornSprings/track-client-sdk-js"
   },
   "license": "LGPL-3.0-only",
   "author": "Liberty Infrasystems <hello@liberty.io> (https://unicornsprings.com)",
