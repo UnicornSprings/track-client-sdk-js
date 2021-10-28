@@ -1,0 +1,56 @@
+{
+  "name": "@unicornsprings/track-client-sdk-js",
+  "version": "0.1.0",
+  "description": "Client library for track service",
+  "type": "module",
+  "main": "dist/main.umd.js",
+  "module": "src/main",
+  "files": [
+    "src",
+    "lgpl-3.0.md",
+    "LICENSE.md",
+    "README.md"
+  ],
+  "scripts": {
+    "clean": "exit 0",
+    "lint": "eslint --fix src/**",
+    "deps": "dep-check",
+    "pkg": "pkg-check",
+    "start": "exit 0",
+    "test": "mocha ./test/unit/*.js"
+  },
+  "homepage": "https://unicornsprings.com",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@git.cryptium.net/unicorn_springs/track-client-sdk-js"
+  },
+  "license": "LGPL-3.0-only",
+  "author": "Liberty Infrasystems <hello@liberty.io> (https://unicornsprings.com)",
+  "contributors": [
+    "Jonathan Buhacoff <jonathan@liberty.io>"
+  ],
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "keywords": [
+    "unicornsprings",
+    "track",
+    "client",
+    "sdk"
+  ],
+  "dependencies": {
+    "axios": "^0.24.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@libertyio/commitlint-config": "^1.0.0",
+    "@libertyio/commitlint-config-type-enum": "^1.0.0",
+    "chai": "^4.2.0",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-mocha": "^6.2.0",
+    "husky": "^3.0.8",
+    "mocha": "^9.1.3"
+  }
+}
